@@ -8,7 +8,7 @@
     - 강설량-강수량-적설량을 제외하고는 그다지 관계가 없음
     - TARGET과도 비상관성을 보임 (TARGET은 비순서-범주형 데이터이기에 이 결과는 유의해야 함)
 
-  -  범주형-범주형 상관관계 (cramer's V)
+  -  범주형-범주형 상관관계 (cramer's V: 비순서형 범주형 변수이기 때문에 사용)
     -  ![image](https://github.com/Cheol-Kyu/Criminal_Classification/assets/87174143/73ebc0cf-b16f-4711-85de-e35bc639b84c)
     - 위 그림은 상관계수가 0.1 이상 혹은 -0.1 이하에 True를 반환하는 함수를 적용 (상관관계만 입력하면 seaborn에서 히트맵이 그려지지 않음)
     - 날씨 관련 데이터는 서로 약간 혹은 그 이상 상관관계를 보이지만, TARGET과는 비상관성을 보임
